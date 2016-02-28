@@ -1,0 +1,20 @@
+{
+   "manifest_version": 2,
+   "background": { "page": "bg.html" },
+   "browser_action": {
+      "default_icon": "radiator_t_19.png",
+      "default_title": "Radiator"
+   },
+   "description": "",
+   "icons": {
+      "128": "radiator_t_128.png",
+      "48": "radiator_t_48.png"
+   },
+   "name": "Radiator",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "idle" ],
+   "version": "0.1"
+}
